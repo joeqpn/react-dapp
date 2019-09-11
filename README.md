@@ -8,7 +8,10 @@ Download the Github repo to a local project folder
 [Github React-Dapp](https://github.com/joeqpn/react-dapp)
 
 Install Google Chrome MetaMask Extension (Desktop)
-[MetaMask Extension](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn)
+[MetaMask Extension](https://mobile.metamask.io)
+
+Install MetaMask Mobile
+[MetaMask Mobile](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn)
 
 Configure MetaMask For localhost connection
 In the MetaMask Plugin
