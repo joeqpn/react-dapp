@@ -12,6 +12,8 @@ Install Google Chrome MetaMask Extension (Desktop)
 
 Install MetaMask Mobile
 [MetaMask Mobile](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn)
+NOTE: There should be instructions on how to sync your desktop MetaMask with your Mobile MetaMask...You may want to create several Desktop test accounts prior to syncing with your mobile wallet...
+NOTE: Syncing will not bring over imported accounts you will have to add them manually to the mobile wallet. 
 
 Configure MetaMask For localhost connection
 In the MetaMask Plugin
@@ -79,7 +81,8 @@ Now we can deploy to Rinkeby
 
 Now you should be able to refresh you app and it should connect to the Rinkeby Testnet. A good indication that you are now pointing to Rinkeby is that the saved value should revert to the default 'cookies'. 
 
-
+Extra Credit: 
+See if you can bring up the app in your mobile MetaMask browser. You will need to make sure you are connected to the Rinkeby Network and that you have selected an address that has Rinkeby ETH. 
 
 
 
