@@ -1,4 +1,9 @@
+require('dotenv').config();
 const path = require("path");
+const HDWalletProvider = require('truffle-hdwallet-provider');
+
+
+
 /*
 To run this example:
 1. cd to the truffle-react folder: truffle develop starts a new blockchain, compile and migrate the app
@@ -39,13 +44,22 @@ module.exports = {
       port: 7545,
       network_id: "*" // Match any network id
     },
-    rinkeby: {
+    rinkeby_local: {
       host: "127.0.0.1",
       port: 8545,
       //from: 0x90820b520fb20c87de927607419d61ea422ed11d, // from geth address test network wallet 1
       network_id: "4", // Match any network id
       websockets: true,
       gas: 4612388
+    },
+    rinkeby: {
+      provider: () => new HDWalletProvider(
+        process.env.MNEMONIC,
+        `https://rinkeby.infura.io/v3/${process.env.INFURA_API_KEY}`
+      ),
+      websockets: true,
+      gas: 4612388,
+      network_id: 4
     }
   }
 };
