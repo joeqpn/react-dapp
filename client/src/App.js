@@ -3,42 +3,10 @@ import React, { Component } from "react";
 import SimpleStorageContract from "./contracts/SimpleStorage.json";
 import getWeb3 from "./utils/getWeb3";
 import getWeb3WS from "./utils/getWeb3WS";
-//import SockJS from "sockjs-client";
-
-
+import Clock from "./Clock";
 import "./App.css";
 
-class Clock extends Component {
-  constructor(props){
-    super(props);
-    this.state = {
-      date: new Date()
-    };
-  }
-  componentDidMount() {
-    this.timerID = setInterval(
-      () => this.tick(),
-      1000
-    );
-  }
-  componentWillMount() {
-    clearInterval(this.timerID);
-  }
 
-  tick() {
-    this.setState({
-      date: new Date()
-    });
-  }
-
-  render() {
-    return (
-      <div>
-        <h2>The local time is {this.state.date.toLocaleTimeString()}</h2>
-      </div>
-    );
-  }
-}
 
 class App extends Component {
   state = {
