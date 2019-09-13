@@ -28,10 +28,11 @@ Open a shell
 ### `truffle develop`
 ### `migrate --reset --network develop`
 (resolve any errors before continuing)
+
 ***LEAVE THIS SHELL OPEN***
 
 Import truffle Develop address into MetaMask
-From the previous step of ### `truffle develop` 10 addresses were created
+From the previous step of `truffle develop` 10 addresses were created
 select account 0 private key
 In Metamask select Import Account
 Select Type Private Key
