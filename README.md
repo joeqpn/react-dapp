@@ -26,9 +26,9 @@ Deploy the smart contract to the local Development server
 Open a shell
 ### `cd <location of downloaded react-dapp repo>`
 ### `truffle develop`
-### `truffle migrate`
-(resolve an errors before continuing)
-Leave this shell open
+### `migrate --reset --network develop`
+(resolve any errors before continuing)
+***LEAVE THIS SHELL OPEN***
 
 Import truffle Develop address into MetaMask
 From the previous step of ### `truffle develop` 10 addresses were created
