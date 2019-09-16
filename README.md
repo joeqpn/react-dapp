@@ -9,6 +9,10 @@ Install Truffle
 
 Download the Github repo to a local project folder
 [Github React-Dapp](https://github.com/joeqpn/react-dapp)
+Now we need to install dependencies described in package.json or npm-shrinkwrap.json package-lock.json into the node_modules folder...
+in the top level direcory of the project(with the build,contracts,client,migrations folders) issue the command...
+### `npm install`
+After running the npm install command ensure a node_modules folder now exists at the top level as well as one in the client folder.
 
 Install Google Chrome MetaMask Extension (Desktop)
 [MetaMask Extension](https://mobile.metamask.io)
