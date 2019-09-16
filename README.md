@@ -1,6 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Prerequisites
+Install Node Package Manager
+[Node.js](/https://nodejs.org/en/)
+
 Install Truffle 
 ### `npm install -g truffle`
 
