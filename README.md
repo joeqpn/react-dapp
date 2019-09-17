@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Prerequisites
-Install Node Package Manager
+Install Node.js and Node Package Manager(npm)
 [Node.js](/https://nodejs.org/en/)
 
 Install Truffle 
@@ -10,9 +10,15 @@ Install Truffle
 Download the Github repo to a local project folder
 [Github React-Dapp](https://github.com/joeqpn/react-dapp)
 Now we need to install dependencies described in package.json or npm-shrinkwrap.json package-lock.json into the node_modules folder...
-in the top level direcory of the project(with the build,contracts,client,migrations folders) issue the command...
+in the top level directory of the project(with the build,contracts,client,migrations folders) issue the command...
 ### `npm install`
-After running the npm install command ensure a node_modules folder now exists at the top level as well as one in the client folder.
+After running the npm install command ensure a node_modules folder now exists at the top level react-dapp directory.
+
+now we need to install the client dependencies.
+### `cd client/`
+### `npm install`
+ensure a node_modules folder now exists in the client folder.
+
 
 Install Google Chrome MetaMask Extension (Desktop)
 [MetaMask Extension](https://mobile.metamask.io)
