@@ -1,0 +1,30 @@
+{
+  "name": "react-dapp",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.0.0-beta.55",
+    "web": "^0.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeqpn/react-dapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joeqpn/react-dapp/issues"
+  },
+  "homepage": "https://github.com/joeqpn/react-dapp#readme"
+}
